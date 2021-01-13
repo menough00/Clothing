@@ -6,6 +6,9 @@ public class Main {
 		System.out.println(calvin.wash());
 		Clothing guess=new Pants("32c32","Stone Washed");
 		System.out.println(guess.wash());
+		Clothing boss=new Shirt("XL","Black"); 
+		System.out.println(boss.wash());
+		System.out.println(boss.pack());
 	}
 
 }
